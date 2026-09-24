@@ -1,0 +1,662 @@
+[
+  {
+    "id": "AMB-PERSON-001",
+    "name": "B. R. Ambedkar",
+    "type": "Person",
+    "description": "Indian jurist, economist, and social reformer.",
+    "year": 1891,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 4
+  },
+  {
+    "id": "AMB-PERSON-002",
+    "name": "Mahatma Gandhi",
+    "type": "Person",
+    "description": "Indian lawyer and anti-colonial nationalist.",
+    "year": 1869,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14
+  },
+  {
+    "id": "AMB-PERSON-003",
+    "name": "Jawaharlal Nehru",
+    "type": "Person",
+    "description": "First Prime Minister of India.",
+    "year": 1889,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42
+  },
+  {
+    "id": "AMB-PERSON-004",
+    "name": "Lord Linlithgow",
+    "type": "Person",
+    "description": "Viceroy of India from 1936 to 1943.",
+    "year": 1887,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-PERSON-005",
+    "name": "Ramsay MacDonald",
+    "type": "Person",
+    "description": "British Prime Minister.",
+    "year": 1866,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 49
+  },
+  {
+    "id": "AMB-PERSON-006",
+    "name": "Vallabhbhai Patel",
+    "type": "Person",
+    "description": "First Deputy Prime Minister of India.",
+    "year": 1875,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 54
+  },
+  {
+    "id": "AMB-PERSON-007",
+    "name": "Savita Ambedkar",
+    "type": "Person",
+    "description": "Ambedkar's second wife.",
+    "year": 1909,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 103
+  },
+  {
+    "id": "AMB-PERSON-008",
+    "name": "Ramabai Ambedkar",
+    "type": "Person",
+    "description": "Ambedkar's first wife.",
+    "year": 1898,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17
+  },
+  {
+    "id": "AMB-PERSON-009",
+    "name": "Chhatrapati Shahu Maharaj",
+    "type": "Person",
+    "description": "Maharaja of Kolhapur, social reformer.",
+    "year": 1874,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 22
+  },
+  {
+    "id": "AMB-PERSON-010",
+    "name": "Sayajirao Gaekwad III",
+    "type": "Person",
+    "description": "Maharaja of Baroda who funded Ambedkar's education.",
+    "year": 1863,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17
+  },
+  {
+    "id": "AMB-PERSON-011",
+    "name": "Jyotirao Phule",
+    "type": "Person",
+    "description": "Social activist and thinker.",
+    "year": 1827,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 222
+  },
+  {
+    "id": "AMB-PERSON-012",
+    "name": "M. A. Jinnah",
+    "type": "Person",
+    "description": "Founder of Pakistan.",
+    "year": 1876,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14
+  },
+  {
+    "id": "AMB-PERSON-013",
+    "name": "Lord Mountbatten",
+    "type": "Person",
+    "description": "Last Viceroy of India.",
+    "year": 1900,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 100
+  },
+  {
+    "id": "AMB-PERSON-014",
+    "name": "Winston Churchill",
+    "type": "Person",
+    "description": "British Prime Minister.",
+    "year": 1874,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 57
+  },
+  {
+    "id": "AMB-PERSON-015",
+    "name": "Dr. Rajendra Prasad",
+    "type": "Person",
+    "description": "First President of India.",
+    "year": 1884,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 91
+  },
+  {
+    "id": "AMB-PERSON-016",
+    "name": "Stafford Cripps",
+    "type": "Person",
+    "description": "British Labour politician.",
+    "year": 1889,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84
+  },
+  {
+    "id": "AMB-PERSON-017",
+    "name": "Lord Wavell",
+    "type": "Person",
+    "description": "Viceroy of India.",
+    "year": 1883,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 88
+  },
+  {
+    "id": "AMB-PERSON-018",
+    "name": "E. V. Ramasamy (Periyar)",
+    "type": "Person",
+    "description": "Social activist, started the Self-Respect Movement.",
+    "year": 1879,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-PERSON-019",
+    "name": "K. R. Narayanan",
+    "type": "Person",
+    "description": "10th President of India, First Dalit President.",
+    "year": 1920,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-PERSON-020",
+    "name": "Edwin Montagu",
+    "type": "Person",
+    "description": "Secretary of State for India.",
+    "year": 1879,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 21
+  },
+  {
+    "id": "AMB-EVENT-001",
+    "name": "Poona Pact",
+    "type": "Event",
+    "description": "Agreement between Ambedkar and Gandhi on reservation.",
+    "year": 1932,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 62
+  },
+  {
+    "id": "AMB-EVENT-002",
+    "name": "Mahad Satyagraha",
+    "type": "Event",
+    "description": "Satyagraha to allow untouchables to use water in Mahad.",
+    "year": 1927,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35
+  },
+  {
+    "id": "AMB-EVENT-003",
+    "name": "Round Table Conference",
+    "type": "Event",
+    "description": "Conferences organized by British Govt on constitutional reforms in India.",
+    "year": 1930,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 45
+  },
+  {
+    "id": "AMB-EVENT-004",
+    "name": "Kalaram Temple Entry",
+    "type": "Event",
+    "description": "Movement for temple entry in Nashik.",
+    "year": 1930,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 44
+  },
+  {
+    "id": "AMB-EVENT-005",
+    "name": "Conversion to Buddhism",
+    "type": "Event",
+    "description": "Mass conversion to Buddhism in Nagpur.",
+    "year": 1956,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17
+  },
+  {
+    "id": "AMB-EVENT-006",
+    "name": "Simon Commission Boycott",
+    "type": "Event",
+    "description": "Boycott of the all-white Simon Commission.",
+    "year": 1928,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42
+  },
+  {
+    "id": "AMB-EVENT-007",
+    "name": "Communal Award",
+    "type": "Event",
+    "description": "British grant of separate electorates to minority communities.",
+    "year": 1932,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 57
+  },
+  {
+    "id": "AMB-EVENT-008",
+    "name": "Cripps Mission",
+    "type": "Event",
+    "description": "Failed attempt by British govt to secure Indian cooperation in WWII.",
+    "year": 1942,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84
+  },
+  {
+    "id": "AMB-EVENT-009",
+    "name": "Cabinet Mission",
+    "type": "Event",
+    "description": "Mission to discuss the transfer of power to Indian leadership.",
+    "year": 1946,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-EVENT-010",
+    "name": "Adoption of the Constitution",
+    "type": "Event",
+    "description": "The Constituent Assembly adopted the Indian Constitution.",
+    "year": 1949,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14
+  },
+  {
+    "id": "AMB-EVENT-011",
+    "name": "Resignation from Nehru Cabinet",
+    "type": "Event",
+    "description": "Ambedkar resigns over the Hindu Code Bill.",
+    "year": 1951,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 44
+  },
+  {
+    "id": "AMB-EVENT-012",
+    "name": "Establishment of Bahishkrit Hitakarini Sabha",
+    "type": "Event",
+    "description": "Organization for the welfare of the depressed classes.",
+    "year": 1924,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 39
+  },
+  {
+    "id": "AMB-ORG-001",
+    "name": "Independent Labour Party",
+    "type": "Organization",
+    "description": "Political party founded by Ambedkar.",
+    "year": 1936,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 78
+  },
+  {
+    "id": "AMB-ORG-002",
+    "name": "Scheduled Castes Federation",
+    "type": "Organization",
+    "description": "Political party founded by Ambedkar.",
+    "year": 1942,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 80
+  },
+  {
+    "id": "AMB-ORG-003",
+    "name": "Republican Party of India",
+    "type": "Organization",
+    "description": "Party envisioned by Ambedkar, formed post-mortem.",
+    "year": 1957,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 114
+  },
+  {
+    "id": "AMB-ORG-004",
+    "name": "Constituent Assembly of India",
+    "type": "Organization",
+    "description": "Assembly elected to draft the Constitution of India.",
+    "year": 1946,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 99
+  },
+  {
+    "id": "AMB-ORG-005",
+    "name": "Indian National Congress",
+    "type": "Organization",
+    "description": "Major political party in India.",
+    "year": 1885,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 53
+  },
+  {
+    "id": "AMB-ORG-006",
+    "name": "Muslim League",
+    "type": "Organization",
+    "description": "Political party that advocated for the creation of Pakistan.",
+    "year": 1906,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 71
+  },
+  {
+    "id": "AMB-ORG-007",
+    "name": "Hindu Mahasabha",
+    "type": "Organization",
+    "description": "Hindu nationalist political party.",
+    "year": 1915,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 48
+  },
+  {
+    "id": "AMB-ORG-008",
+    "name": "Peoples Education Society",
+    "type": "Organization",
+    "description": "Society founded by Ambedkar.",
+    "year": 1945,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-TOPIC-001",
+    "name": "Caste System",
+    "type": "Topic",
+    "description": "Social stratification in India.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21
+  },
+  {
+    "id": "AMB-TOPIC-002",
+    "name": "Untouchability",
+    "type": "Topic",
+    "description": "Practice of ostracizing a minority group.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 16
+  },
+  {
+    "id": "AMB-TOPIC-003",
+    "name": "Separate Electorates",
+    "type": "Topic",
+    "description": "Electoral system for minority representation.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 46
+  },
+  {
+    "id": "AMB-TOPIC-004",
+    "name": "Hindu Code Bill",
+    "type": "Topic",
+    "description": "Proposed laws to reform Hindu personal law.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 109
+  },
+  {
+    "id": "AMB-TOPIC-005",
+    "name": "Buddhism",
+    "type": "Topic",
+    "description": "Religion and philosophy based on teachings of Buddha.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17
+  },
+  {
+    "id": "AMB-TOPIC-006",
+    "name": "Women's Rights",
+    "type": "Topic",
+    "description": "Rights and entitlements claimed for women and girls.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 27
+  },
+  {
+    "id": "AMB-TOPIC-007",
+    "name": "Labour Rights",
+    "type": "Topic",
+    "description": "Rights of workers and employees.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21
+  },
+  {
+    "id": "AMB-TOPIC-008",
+    "name": "Democracy",
+    "type": "Topic",
+    "description": "System of government by the whole population.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 12
+  },
+  {
+    "id": "AMB-LOC-001",
+    "name": "Mhow",
+    "type": "Location",
+    "description": "Birthplace of Ambedkar.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 13
+  },
+  {
+    "id": "AMB-LOC-002",
+    "name": "Mahad",
+    "type": "Location",
+    "description": "Site of the Mahad Satyagraha.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35
+  },
+  {
+    "id": "AMB-LOC-003",
+    "name": "Nashik",
+    "type": "Location",
+    "description": "Site of the Kalaram Temple entry movement.",
+    "year": null,
+    "status": "needs_verification",
+    "evidence_document_id": null,
+    "evidence_page": null
+  },
+  {
+    "id": "AMB-LOC-004",
+    "name": "London",
+    "type": "Location",
+    "description": "City where Ambedkar studied and attended Round Table Conferences.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 78
+  },
+  {
+    "id": "AMB-LOC-005",
+    "name": "Nagpur",
+    "type": "Location",
+    "description": "City where Ambedkar converted to Buddhism.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 45
+  },
+  {
+    "id": "AMB-LOC-006",
+    "name": "Delhi",
+    "type": "Location",
+    "description": "Capital of India.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 5
+  },
+  {
+    "id": "AMB-LOC-007",
+    "name": "Bombay (Mumbai)",
+    "type": "Location",
+    "description": "City where Ambedkar spent much of his life and career.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 5
+  },
+  {
+    "id": "AMB-LOC-008",
+    "name": "Columbia University",
+    "type": "Location",
+    "description": "University where Ambedkar earned his PhD.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 18
+  },
+  {
+    "id": "AMB-LOC-009",
+    "name": "LSE",
+    "type": "Location",
+    "description": "London School of Economics, where Ambedkar studied.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 20
+  },
+  {
+    "id": "AMB-WORK-001",
+    "name": "Annihilation of Caste",
+    "type": "Work",
+    "description": "Undelivered speech written in 1936.",
+    "year": 1936,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 12
+  },
+  {
+    "id": "AMB-WORK-002",
+    "name": "The Buddha and His Dhamma",
+    "type": "Work",
+    "description": "Treatise on Buddha's life and philosophy.",
+    "year": 1957,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 93
+  },
+  {
+    "id": "AMB-WORK-003",
+    "name": "Who Were the Shudras?",
+    "type": "Work",
+    "description": "Book tracing the origin of the Shudra varna.",
+    "year": 1946,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 9
+  },
+  {
+    "id": "AMB-WORK-004",
+    "name": "The Untouchables",
+    "type": "Work",
+    "description": "Book on the origin of untouchability.",
+    "year": 1948,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35
+  },
+  {
+    "id": "AMB-WORK-005",
+    "name": "States and Minorities",
+    "type": "Work",
+    "description": "Memorandum on fundamental rights.",
+    "year": 1947,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14
+  },
+  {
+    "id": "AMB-WORK-006",
+    "name": "Pakistan or the Partition of India",
+    "type": "Work",
+    "description": "Book analyzing the demand for Pakistan.",
+    "year": 1940,
+    "status": "verified",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 39
+  },
+  {
+    "id": "AMB-WORK-007",
+    "name": "Castes in India",
+    "type": "Work",
+    "description": "Paper presented at Columbia University.",
+    "year": 1916,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14
+  },
+  {
+    "id": "AMB-WORK-008",
+    "name": "Problem of the Rupee",
+    "type": "Work",
+    "description": "Ambedkar's DSc thesis.",
+    "year": 1923,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 44
+  },
+  {
+    "id": "AMB-WORK-009",
+    "name": "History of Ambedkar",
+    "type": "Work",
+    "description": "A biographical history document.",
+    "year": null,
+    "status": "verified",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 20
+  }
+]

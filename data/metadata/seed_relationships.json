@@ -1,0 +1,770 @@
+[
+  {
+    "source_id": "AMB-PERSON-001",
+    "target_id": "AMB-PERSON-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 4,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-001",
+    "target_id": "AMB-PERSON-017",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 4,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-001",
+    "target_id": "AMB-EVENT-001",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 4,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-001",
+    "target_id": "AMB-LOC-003",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 4,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-002",
+    "target_id": "AMB-PERSON-011",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-002",
+    "target_id": "AMB-PERSON-013",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-002",
+    "target_id": "AMB-EVENT-004",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-002",
+    "target_id": "AMB-ORG-002",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-002",
+    "target_id": "AMB-ORG-008",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-003",
+    "target_id": "AMB-PERSON-014",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-003",
+    "target_id": "AMB-ORG-007",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-003",
+    "target_id": "AMB-LOC-003",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-003",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-004",
+    "target_id": "AMB-PERSON-016",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-004",
+    "target_id": "AMB-EVENT-006",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 42,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-004",
+    "target_id": "AMB-ORG-001",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 78,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-005",
+    "target_id": "AMB-WORK-004",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 49,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-006",
+    "target_id": "AMB-PERSON-011",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 54,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-006",
+    "target_id": "AMB-LOC-008",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 54,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-008",
+    "target_id": "AMB-EVENT-007",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-008",
+    "target_id": "AMB-ORG-001",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-008",
+    "target_id": "AMB-LOC-003",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-009",
+    "target_id": "AMB-PERSON-017",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 22,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-009",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 22,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-009",
+    "target_id": "AMB-WORK-006",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 22,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-010",
+    "target_id": "AMB-EVENT-005",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-010",
+    "target_id": "AMB-EVENT-008",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-010",
+    "target_id": "AMB-EVENT-009",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-010",
+    "target_id": "AMB-LOC-002",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-010",
+    "target_id": "AMB-WORK-006",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-011",
+    "target_id": "AMB-PERSON-017",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 222,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-011",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 222,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-012",
+    "target_id": "AMB-ORG-002",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-012",
+    "target_id": "AMB-WORK-004",
+    "relationship_type": "authored",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-013",
+    "target_id": "AMB-TOPIC-006",
+    "relationship_type": "discussed",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 100,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-013",
+    "target_id": "AMB-LOC-008",
+    "relationship_type": "visited",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 100,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-014",
+    "target_id": "AMB-PERSON-015",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-014",
+    "target_id": "AMB-EVENT-002",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-014",
+    "target_id": "AMB-EVENT-005",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-014",
+    "target_id": "AMB-TOPIC-007",
+    "relationship_type": "discussed",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-015",
+    "target_id": "AMB-ORG-006",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 91,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-016",
+    "target_id": "AMB-PERSON-020",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-016",
+    "target_id": "AMB-EVENT-012",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-018",
+    "target_id": "AMB-EVENT-002",
+    "relationship_type": "participated_in",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-018",
+    "target_id": "AMB-ORG-007",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 48,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-020",
+    "target_id": "AMB-ORG-006",
+    "relationship_type": "associated_with",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-PERSON-020",
+    "target_id": "AMB-TOPIC-006",
+    "relationship_type": "discussed",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-001",
+    "target_id": "AMB-EVENT-005",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 62,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-001",
+    "target_id": "AMB-LOC-003",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 62,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-001",
+    "target_id": "AMB-LOC-005",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 62,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-002",
+    "target_id": "AMB-ORG-005",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-002",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-004",
+    "target_id": "AMB-ORG-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 44,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-004",
+    "target_id": "AMB-LOC-007",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 44,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-005",
+    "target_id": "AMB-ORG-002",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-005",
+    "target_id": "AMB-LOC-002",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-005",
+    "target_id": "AMB-WORK-001",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-005",
+    "target_id": "AMB-WORK-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 17,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-007",
+    "target_id": "AMB-TOPIC-005",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-007",
+    "target_id": "AMB-LOC-002",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 57,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-008",
+    "target_id": "AMB-LOC-009",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 84,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-009",
+    "target_id": "AMB-ORG-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 48,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-009",
+    "target_id": "AMB-TOPIC-001",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-009",
+    "target_id": "AMB-LOC-004",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 78,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-009",
+    "target_id": "AMB-LOC-005",
+    "relationship_type": "occurred_at",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 45,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-010",
+    "target_id": "AMB-TOPIC-006",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-010",
+    "target_id": "AMB-WORK-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 14,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-EVENT-011",
+    "target_id": "AMB-ORG-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 44,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-002",
+    "target_id": "AMB-TOPIC-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 80,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-002",
+    "target_id": "AMB-WORK-005",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 80,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-003",
+    "target_id": "AMB-LOC-001",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 114,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-004",
+    "target_id": "AMB-TOPIC-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 99,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-005",
+    "target_id": "AMB-TOPIC-005",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 53,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-005",
+    "target_id": "AMB-TOPIC-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 53,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-005",
+    "target_id": "AMB-LOC-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 53,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-006",
+    "target_id": "AMB-WORK-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 71,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-007",
+    "target_id": "AMB-TOPIC-003",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 48,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-ORG-007",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 48,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-001",
+    "target_id": "AMB-TOPIC-007",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-001",
+    "target_id": "AMB-LOC-006",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-001",
+    "target_id": "AMB-WORK-002",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-002",
+    "target_id": "AMB-LOC-002",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 16,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-004",
+    "target_id": "AMB-WORK-001",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 109,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-007",
+    "target_id": "AMB-LOC-006",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-007",
+    "target_id": "AMB-WORK-004",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-007",
+    "target_id": "AMB-WORK-009",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 21,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-TOPIC-008",
+    "target_id": "AMB-WORK-004",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 12,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-001",
+    "target_id": "AMB-LOC-002",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 13,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-003",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 9,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-004",
+    "target_id": "AMB-WORK-002",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 78,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-005",
+    "target_id": "AMB-LOC-009",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 45,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-006",
+    "target_id": "AMB-WORK-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 5,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-008",
+    "target_id": "AMB-LOC-009",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-EN-V01",
+    "evidence_page": 18,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-LOC-009",
+    "target_id": "AMB-WORK-003",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 20,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-WORK-002",
+    "target_id": "AMB-WORK-009",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 93,
+    "status": "verified"
+  },
+  {
+    "source_id": "AMB-WORK-004",
+    "target_id": "AMB-WORK-008",
+    "relationship_type": "related_to",
+    "evidence_document_id": "AMB-DOC-001",
+    "evidence_page": 35,
+    "status": "verified"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AMB-EN-V01",
+    "collection_id": "AMB-WAS",
+    "title": "Dr. Babasaheb Ambedkar Writings and Speeches",
+    "volume": 1,
+    "part": null,
+    "language": "English",
+    "document_type": "Primary Source",
+    "source_url": "",
+    "filename": "Volume1.pdf",
+    "path": "data\\raw\\documents\\english\\Volume1.pdf",
+    "size_bytes": 11151911,
+    "sha256": "fb7c5fe1ce9f575417d31d05748445798e8b05d18882c1246a598f19e877c7b8"
+  },
+  {
+    "id": "AMB-DOC-001",
+    "collection_id": "AMB-WAS",
+    "title": "History of Ambedkar",
+    "volume": null,
+    "part": null,
+    "language": "English",
+    "document_type": "Primary Source",
+    "source_url": "",
+    "filename": "AMB-DOC-001.pdf",
+    "path": "data\\raw\\documents\\english\\AMB-DOC-001.pdf",
+    "size_bytes": 5410301,
+    "sha256": "630ef0ebae1454dcdbc1de10ca68e86285e5b694d4fddc69cb820b037c45755b"
+  },
+  {
+    "id": "AMB-DOC-002",
+    "collection_id": "AMB-WAS",
+    "title": "Timeline of Dr. Bhimrao Ambedkar",
+    "volume": 0,
+    "part": null,
+    "language": "English",
+    "document_type": "Primary Source",
+    "source_url": "",
+    "filename": "AMB-DOC-002.pdf",
+    "path": "C:\\Users\\Gagan P\\Downloads\\ambedkar-archive\\data\\raw\\documents\\english\\AMB-DOC-002.pdf",
+    "size_bytes": 465862,
+    "sha256": "2bb8fdcb6f79d280d7931c0e0de48255b64ea2990a75a0e9930fa70a8c653c8a"
+  }
+]
