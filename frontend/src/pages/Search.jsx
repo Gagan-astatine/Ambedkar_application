@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Search as SearchIcon, ExternalLink, Loader2, Book } from 'lucide-react';
+import { Search as SearchIcon, ExternalLink, Loader2, Book, Play } from 'lucide-react';
 
 export default function Search() {
   const [query, setQuery] = useState('');
@@ -30,9 +30,9 @@ export default function Search() {
 
   return (
     <div className="container mx-auto px-6 py-12 max-w-5xl">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-serif font-bold text-gray-900 mb-4">Semantic Search</h1>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+      <div className="text-center mb-12 border-b border-white/10 pb-8">
+        <h1 className="text-5xl font-serif font-normal text-brand-cream mb-4">Semantic Search</h1>
+        <p className="text-lg text-brand-cream/70 max-w-2xl mx-auto font-light">
           Search across all documents by meaning, not just keywords.
         </p>
       </div>
@@ -43,12 +43,12 @@ export default function Search() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="e.g., origin of caste, constitution drafting..."
-          className="w-full text-lg pl-6 pr-16 py-5 rounded-2xl border-2 border-gray-200 shadow-sm focus:border-brand-500 focus:ring-4 focus:ring-brand-100 outline-none transition-all"
+          className="w-full text-lg pl-6 pr-16 py-5 rounded-none border-b-2 border-white/20 bg-transparent text-brand-cream placeholder-brand-cream/30 focus:border-brand-gold outline-none transition-all font-light"
         />
         <button 
           type="submit" 
           disabled={loading || !query.trim()}
-          className="absolute right-3 top-3 bottom-3 bg-brand-900 text-white p-3 rounded-xl hover:bg-brand-800 disabled:opacity-50 transition-colors flex items-center justify-center"
+          className="absolute right-0 top-3 bottom-3 text-brand-gold p-3 disabled:opacity-30 transition-colors flex items-center justify-center hover:text-white"
         >
           {loading ? <Loader2 className="w-6 h-6 animate-spin" /> : <SearchIcon className="w-6 h-6" />}
         </button>
@@ -62,41 +62,47 @@ export default function Search() {
 
       {results !== null && (
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-gray-900 mb-6 font-serif">
+          <p className="text-brand-gold uppercase tracking-[0.2em] text-xs font-bold mb-6">
             Found {results.length} results
-          </h2>
+          </p>
           
           {results.length > 0 ? (
             <div className="space-y-6">
-              {results.map((res, idx) => (
-                <div key={idx} className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-300 transition-all">
-                  <div className="flex justify-between items-start mb-4">
-                    <div className="flex items-center space-x-2 text-brand-700">
-                      <Book className="w-5 h-5" />
-                      <span className="font-bold">{res.document_id}</span>
-                      <span className="text-gray-400">&bull;</span>
-                      <span className="text-gray-600 text-sm">Page {res.pdf_page}</span>
+              {results.map((res, idx) => {
+                const isAudio = res.media_type === 'audio';
+                return (
+                  <div key={idx} className="bg-brand-black p-8 border border-white/10 hover:border-brand-gold/50 transition-all">
+                    <div className="flex justify-between items-start mb-6">
+                      <div className="flex items-center space-x-3 text-brand-cream">
+                        {isAudio ? <Play className="w-5 h-5 text-brand-gold" /> : <Book className="w-5 h-5 text-brand-gold" />}
+                        <span className="font-bold font-serif text-lg">{res.document_id}</span>
+                        <span className="text-brand-cream/30">&bull;</span>
+                        <span className="text-brand-cream/70 text-sm uppercase tracking-widest font-semibold">
+                          {isAudio ? `${res.timestamp_start_fmt} – ${res.timestamp_end_fmt}` : `Page ${res.pdf_page}`}
+                        </span>
+                      </div>
+                      <Link 
+                        to={isAudio ? `/media/${res.document_id}?t=${Math.floor(res.timestamp_start ?? 0)}` : `/document/${res.document_id}?page=${res.pdf_page}`}
+                        className="flex items-center space-x-2 text-xs uppercase tracking-widest font-semibold text-brand-black bg-brand-gold px-4 py-2 hover:bg-white transition-colors"
+                      >
+                        <span>{isAudio ? 'Listen' : 'View'}</span>
+                        <ExternalLink className="w-3 h-3" />
+                      </Link>
                     </div>
-                    <Link 
-                      to={`/document/${res.document_id}?page=${res.pdf_page}`}
-                      className="flex items-center space-x-1 text-sm bg-brand-50 text-brand-700 px-3 py-1 rounded-full hover:bg-brand-100 transition-colors"
-                    >
-                      <span>View</span>
-                      <ExternalLink className="w-4 h-4" />
-                    </Link>
-                  </div>
-                  <div className="prose prose-sm font-serif text-gray-700 max-w-none">
-                    <p className="whitespace-pre-wrap">{res.text}</p>
-                  </div>
-                  <div className="mt-4 pt-4 border-t border-gray-50 flex justify-end">
-                     <span className="text-xs text-gray-400">Relevance: {Math.round(res.similarity * 100)}%</span>
+                    <div className="font-serif text-brand-cream/80 leading-relaxed max-w-none text-lg">
+                      <p className="whitespace-pre-wrap">{res.text}</p>
+                    </div>
+
+                  <div className="mt-6 pt-4 border-t border-white/10 flex justify-end">
+                     <span className="text-xs text-brand-cream/40 uppercase tracking-widest">Relevance: {Math.round(res.similarity * 100)}%</span>
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           ) : (
-            <div className="text-center py-12 bg-white rounded-xl border border-gray-100">
-              <p className="text-gray-500">No matching text found.</p>
+            <div className="text-center py-12 border border-white/10">
+              <p className="text-brand-cream/50 font-light">No matching text found.</p>
             </div>
           )}
         </div>

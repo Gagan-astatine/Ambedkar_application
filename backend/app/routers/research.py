@@ -8,6 +8,13 @@ from ..llm_client import generate_text
 
 router = APIRouter(tags=["research"])
 
+def _ts(seconds: float | None) -> str | None:
+    """Format seconds as mm:ss string."""
+    if seconds is None:
+        return None
+    s = int(seconds)
+    return f"{s // 60:02d}:{s % 60:02d}"
+
 @retry(
     stop=stop_after_attempt(5),
     wait=wait_exponential(multiplier=1, min=4, max=10),
@@ -73,12 +80,30 @@ def research(q: str = Query(...), limit: int = 10):
         if not valid_chunks:
             return {"answer": "not found in the archive", "citations": [], "related_graph_nodes": []}
             
-        # 2. Format context
+        # 2. Format context — identical treatment for text and audio chunks
         context = ""
         citations = []
         for i, c in enumerate(valid_chunks, 1):
-            context += f"[Citation {i}] Document: {c['document_id']}, Page: {c['pdf_page']}\n{c['text']}\n\n"
-            citations.append({"document_id": c['document_id'], "pdf_page": c['pdf_page'], "text": c['text'][:100] + "..."})
+            is_audio = c.get("media_type") == "audio"
+            if is_audio:
+                loc = f"Timestamp: {_ts(c.get('timestamp_start'))}–{_ts(c.get('timestamp_end'))}"
+            else:
+                loc = f"Page: {c['pdf_page']}"
+            context += f"[Citation {i}] Document: {c['document_id']}, {loc}\n{c['text']}\n\n"
+
+            cite = {
+                "document_id": c["document_id"],
+                "text":        c["text"][:120] + "…",
+                "media_type":  c.get("media_type", "text"),
+            }
+            if is_audio:
+                cite["timestamp_start"]     = c.get("timestamp_start")
+                cite["timestamp_end"]       = c.get("timestamp_end")
+                cite["timestamp_start_fmt"] = _ts(c.get("timestamp_start"))
+                cite["timestamp_end_fmt"]   = _ts(c.get("timestamp_end"))
+            else:
+                cite["pdf_page"] = c["pdf_page"]
+            citations.append(cite)
             
         # 3. Generate answer
         prompt = (

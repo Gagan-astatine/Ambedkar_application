@@ -5,3 +5,5 @@ pydantic
 supabase
 google-genai
 pymupdf
+openai-whisper
+tenacity

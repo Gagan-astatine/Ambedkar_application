@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "AMB-AUD-001",
+    "type": "audio",
+    "title": "Hind Swaraj Speech 04-1",
+    "description": null,
+    "year": null,
+    "language": null,
+    "file": "audio/HindSwaraj-Speech-04-1.mp3",
+    "external_url": "https://archive.org/details/HindSwaraj-Speech-04-1",
+    "source": "Internet Archive",
+    "license": "CHECK_RIGHTS_STATEMENT_ON_ARCHIVE_ORG_PAGE",
+    "retrieved_on": "2026-09-25",
+    "status": "needs_review"
+  }
+]
